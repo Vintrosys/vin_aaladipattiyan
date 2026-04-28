@@ -1,9 +1,9 @@
 [project]
 name = "vin_aaladipattiyan"
 authors = [
-    { name = "Ponsakthivel", email = "kponsakthivel@gmail.com"}
+    { name = "  x Failed to build `vin-aaladipattiyan @", email = "kponsakthivel@gmail.com"}
 ]
-description = "Aaladipattiyan ERP"
+description = "$ uv pip install --quiet --upgrade -e /home/sakthi/Aldi-bench/apps/vin_aaladipattiyan  --python /home/sakthi/Aldi-bench/env/bin/python"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

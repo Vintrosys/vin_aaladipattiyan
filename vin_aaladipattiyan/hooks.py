@@ -1,7 +1,7 @@
 app_name = "vin_aaladipattiyan"
-app_title = "Aaladipattiyan ERP"
-app_publisher = "Ponsakthivel"
-app_description = "Aaladipattiyan ERP"
+app_title = "Installing vin_aaladipattiyan"
+app_publisher = "  x Failed to build `vin-aaladipattiyan @"
+app_description = "$ uv pip install --quiet --upgrade -e /home/sakthi/Aldi-bench/apps/vin_aaladipattiyan  --python /home/sakthi/Aldi-bench/env/bin/python"
 app_email = "kponsakthivel@gmail.com"
 app_license = "mit"
 
@@ -15,7 +15,7 @@ app_license = "mit"
 # 	{
 # 		"name": "vin_aaladipattiyan",
 # 		"logo": "/assets/vin_aaladipattiyan/logo.png",
-# 		"title": "Aaladipattiyan ERP",
+# 		"title": "Installing vin_aaladipattiyan",
 # 		"route": "/vin_aaladipattiyan",
 # 		"has_permission": "vin_aaladipattiyan.api.permission.has_app_permission"
 # 	}
