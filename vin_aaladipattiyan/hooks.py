@@ -5,6 +5,35 @@ app_description = "$ uv pip install --quiet --upgrade -e /home/sakthi/Aldi-bench
 app_email = "kponsakthivel@gmail.com"
 app_license = "mit"
 
+
+
+scheduler_events = {
+    "cron": {
+        "21 13 * * *": [
+            "vin_aaladipattiyan.whatsapp_report.send_daily_finance_reports"
+        ]
+    }
+}
+
+
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["name", "in", [
+                "Vehicle Log-custom_driver_wages",
+                "Vehicle Log-custom_fastag_amount"
+            ]]
+        ]
+    }
+]
+import vin_aaladipattiyan.patch_vehicle_report
+
+app_include_js = [
+    "/assets/vin_aaladipattiyan/js/vehicle_expenses_patch.js"
+]
+
+
 # Apps
 # ------------------
 
